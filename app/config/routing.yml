@@ -1,0 +1,3 @@
+Nx_project_blog:
+    resource: "@NXProjectBlogBundle/Resources/config/routing.yml"
+    prefix:   /

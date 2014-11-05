@@ -1,0 +1,9 @@
+nx_project_blog_homepage:
+    path:     /index/
+    defaults: { _controller: NXProjectBlogBundle:Blog:index }
+background:
+    resource: "@NXProjectBlogBundle/Controller/BackgroundController.php"
+    type:     annotation
+api:
+    resource: "@NXProjectBlogBundle/Controller/ApiController.php"
+    type:     annotation
